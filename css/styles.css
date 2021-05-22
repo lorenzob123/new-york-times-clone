@@ -1,0 +1,508 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+ul,
+ul > li {
+  display: block;
+  text-indent: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.sub-list {
+  display: flex;
+}
+
+nav > ul > ul:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+
+  width: 300px;
+  justify-content: space-evenly;
+
+  padding-top: 6px;
+
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+}
+
+nav > ul > li {
+  position: relative;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  text-align: center;
+}
+nav > ul > ul:last-child {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  display: flex;
+
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 20px;
+}
+
+nav > ul {
+  display: block;
+  background-color: white;
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  width: 213px;
+}
+
+.user-btn {
+  display: flex;
+  align-items: center;
+
+  margin-top: 4px;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+  color: white;
+  background-color: #567b95;
+  border: 1px solid #366a91;
+  border-radius: 2px;
+}
+
+.user-btn > span {
+  display: block;
+  /* background-color: violet; */
+  margin: 0;
+  padding: 0;
+  /* line-height: .9; */
+}
+
+.space-cosmos {
+  display: block;
+  margin-top: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  /* margin-top: 150px; */
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  margin-top: 110px;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+}
+
+.head-picture > img {
+  width: 1200px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+
+  border-top: 1px solid rgb(238, 230, 230);
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.icon-social {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  padding: 5px;
+  margin-right: 7px;
+  border-radius: 100%;
+  background-color: #eee;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px #eee solid;
+}
+
+.whatsup {
+  background-image: url("https://www.nytimes.com/vi-assets/static-assets/icon-whatsapp-17x17-000-b100d38495ee541e2e4f30bcaf9bfe0c.svg");
+
+  /* border: 1px #eee solid; */
+}
+
+.icon-social:hover {
+  background-color: white;
+}
+
+.extra-icon {
+  background-color: white;
+  border: none;
+}
+.css-1d50gvk {
+  background-color: transparent;
+  border: medium none;
+  bottom: 0.05rem;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 25px;
+  line-height: 1rem;
+  margin-left: 2px;
+  min-width: 24px;
+  overflow: visible;
+  padding: 0px 0px 4px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.head-picture {
+  font-size: 15px;
+  color: #666;
+}
+.credit {
+  font-size: 16px;
+  color: #888;
+}
+
+.caption-head {
+  display: flex;
+}
+.empty-space {
+  width: 70%;
+}
+
+.article a {
+  text-decoration: underline;
+}
+
+.article a:hover {
+  text-decoration: none;
+}
+
+.author {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.date {
+  margin-top: 26px;
+  font-size: 19;
+}
+
+.article-content > p {
+  font-family: serif;
+
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.sgn-up-call {
+  display: flex;
+  border-top: 1px solid rgb(238, 236, 236);
+  padding-top: 15px;
+}
+
+.text-sgn-up span:first-child {
+  font-size: 15px;
+  font-weight: 600;
+}
+.text-sgn-up span:last-child {
+  font-size: 17px;
+  font-style: italic;
+  padding-right: 30px;
+}
+
+.sign-up {
+  font-size: 16px;
+  height: 40px;
+  width: 90px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.thanks-read {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  width: 70px;
+  background-color: #dad8d8;
+}
+
+.subscribe {
+  text-align: center;
+  padding: 17px 0;
+
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.subscribe > a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+.editor-pick {
+  float: right;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+.comic-div {
+  float: center;
+
+  width: 950px;
+  /* border: 2px solid goldenrod; */
+}
+
+.comic {
+  width: 100%;
+}
+.comic-div > h3 {
+  margin-bottom: 5px;
+}
+
+.comic-caption {
+  font-size: 17px;
+}
+
+@media (max-width: 1400px) {
+  .head-picture > img {
+    width: 940px;
+  }
+
+  .comic-div {
+    width: 730px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .head-picture > img {
+    width: 100%;
+  }
+  .comic-div {
+    width: 100%;
+  }
+}
+
+.hard-line {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  background-color: #000;
+
+  width: 90px;
+  height: 1px;
+}
+.author-comic {
+  font-size: 17px;
+}
+
+.caption-video {
+  font-size: 15px;
+  color: rgb(44, 44, 44);
+  width: 85%;
+}
+
+.caption-video > span {
+  color: #666;
+}
+
+.image-tele > img {
+  width: 100%;
+}
+
+.print-version {
+  font-size: 11px;
+  color: rgb(70, 70, 70);
+}
+
+.print-version > a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social > .icon-social {
+  /* margin: 0 px; */
+}
+
+.read-comments {
+  padding: 10px 100px;
+}
+
+.social-apps {
+  margin: 20px 0;
+}
+
+.offer {
+  text-align: center;
+  border-top: 1px solid #000;
+  width: 100%;
+}
+
+.offer p:first-child {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.offer p:nth-child(2) {
+  font-size: 30px;
+}
+
+.offer p:last-child {
+  font-size: 13px;
+}
+
+.offer button {
+  color: white;
+  background-color: #000;
+  border: 1px solid #000;
+  padding: 8px 100px;
+}
+footer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.header-footer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px double #ccc;
+  /* border: 1px solid goldenrod; */
+}
+
+footer > div > figure img {
+  height: 25px;
+  width: auto;
+}
+
+.go-home {
+  display: block;
+  font-size: 10px;
+  color: rgb(50, 104, 145);
+}
+
+.go-home > a {
+  color: rgb(50, 104, 145);
+}
+
+.list-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 1000px; */
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.list-col {
+  display: flex;
+  flex-flow: column;
+}
+
+.bottom-nav h1 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.bottom-nav {
+  width: 100%;
+}
+
+.list-nav > div > li {
+  /* margin: 100px 0; */
+  line-height: 20px;
+}
+
+.aside-footer > ul {
+  display: flex;
+  justify-content: space-evenly;
+
+  font-size: 10px;
+
+  padding: 10px 0;
+
+  border-top: 1px solid rgb(211, 211, 211);
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.last-col {
+  border-left: 1px solid rgb(211, 211, 211);
+  padding-left: 10px;
+}
+
+.special-element {
+  border-top: 1px solid rgb(211, 211, 211);
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+figure {
+  margin: 0;
+  padding: 10px 0;
+}

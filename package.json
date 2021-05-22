@@ -1,0 +1,23 @@
+{
+  "name": "new-york-times-clone",
+  "version": "1.0.0",
+  "description": "A clone of a NYT article https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/lorenzob123/new-york-times-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzob123/new-york-times-clone/issues"
+  },
+  "homepage": "https://github.com/lorenzob123/new-york-times-clone#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1"
+  }
+}
